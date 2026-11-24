@@ -1,4 +1,3 @@
-
 # Stage 1: Dependencies
 FROM node:24-alpine AS dependencies
 
@@ -18,6 +17,7 @@ ENV NODE_ENV=production
 COPY --from=dependencies /app/node_modules ./node_modules
 COPY package*.json ./
 COPY server.js ./
+COPY src ./src
 
 EXPOSE 3000
 

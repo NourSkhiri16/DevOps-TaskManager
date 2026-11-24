@@ -1,9 +1,11 @@
+
 {
   "name": "devops-taskmanager",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "DevOps Task Manager Application",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
